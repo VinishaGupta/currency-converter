@@ -32,12 +32,14 @@ class MyApp extends StatelessWidget{
             ),Container(
               width: 100,
               height:100,
-              color:Colors.green
-            ),Container(
+              color:Colors.green,
+              
+            ),SizedBox(width: 20),Container(
               width: 100,
               height:100,
               color:Colors.blue
-            )
+            ),
+            
           ],
         ),
       ),
