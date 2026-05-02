@@ -1,3 +1,17 @@
+// Exercise Level 2 (small upgrade)
+// 🧩 Goal:
+
+// Make 3 boxes in a row
+
+// [red] [green] [blue]
+// 🧠 Hints
+
+// Use:
+
+// Row
+// 3 Container
+
+
 import 'package:flutter/material.dart';
 
 void main(){
