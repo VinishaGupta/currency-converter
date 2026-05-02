@@ -9,7 +9,17 @@ class MyApp extends StatelessWidget{
   Widget build(BuildContext context){
     return MaterialApp(
       home: Scaffold(
-        body: Text("hello"), n
+        body:Column(
+          children: [
+            Text("hello"),
+            Text("Flutter"),
+            Container(
+              height: 100,
+              width: 100,
+              color: Colors.red,
+            ),
+          ],
+        )
       ),
     );
   }
