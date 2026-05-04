@@ -15,23 +15,15 @@ class MyApp extends StatelessWidget{
   Widget build(BuildContext context){
     return MaterialApp(
       home: Scaffold(
-        // body: Column(
-        //   mainAxisAlignment: MainAxisAlignment.center,
-        //   children: [
-            // Text("Hello"),
-            body: Column(
-              // mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Container(width: 100,height: 100,color: Colors.pink,),
-                // SizedBox(height: 20, width: 20,),
-                Container(width: 100,height: 100,color: Colors.green,),
-                // SizedBox(height: 20,width: 20,),
-                Container(width: 100,height: 100,color: Colors.blue,),
-              ],
-            ) ,
-            // Text("Flutter"),
-        //   ],
-        // ),
+        body: Center(
+          child: Row(
+            children: [
+              Container(width: 100,height: 100,color: Colors.pink,),
+              Container(width: 100,height: 100,color: Colors.green,),
+              Container(width: 100,height: 100,color: Colors.blue,),
+            ],
+          ),
+        ),
       ),
     );
   }
