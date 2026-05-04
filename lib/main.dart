@@ -1,15 +1,8 @@
-// Exercise Level 2 (small upgrade)
+// 🎯 Exercise Level 3 (combine both)
 // 🧩 Goal:
-
-// Make 3 boxes in a row
-
+// Hello
 // [red] [green] [blue]
-// 🧠 Hints
-
-// Use:
-
-// Row
-// 3 Container
+// Flutter
 
 import 'package:flutter/material.dart';
 
@@ -22,13 +15,19 @@ class MyApp extends StatelessWidget{
   Widget build(BuildContext context){
     return MaterialApp(
       home: Scaffold(
-        body: Row(
+        body: Column(
           children: [
-            Container(width: 100,height: 100,color: Colors.pink,),
-            Container(width: 100,height: 100,color: Colors.green,),
-            Container(width: 100,height: 100,color: Colors.blue,),
+            Text("Hello"),
+            Row(
+              children: [
+                Container(width: 100,height: 100,color: Colors.pink,),
+                Container(width: 100,height: 100,color: Colors.green,),
+                Container(width: 100,height: 100,color: Colors.blue,),
+              ],
+            ) ,
+            Text("Flutter"),
           ],
-        )
+        ),
       ),
     );
   }
