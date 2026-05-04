@@ -6,7 +6,16 @@ class CurrencyCoverterClass extends StatelessWidget{
     Widget build(BuildContext context){
       return MaterialApp(
         home: Scaffold(
-          body: Text("hello world"),
+          backgroundColor: const Color.fromARGB(255, 51, 51, 51),
+          body: Center(
+            child: Column(
+              children: [
+                Text('0',style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold,fontSize:45), ),
+
+              ],
+            ),
+          )
+          
         ),
       );
     }

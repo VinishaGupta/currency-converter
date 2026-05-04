@@ -4,6 +4,7 @@
 // [red] [green] [blue]
 // Flutter
 
+import 'package:currency_converter/CurrencyCoverterClass.dart';
 import 'package:flutter/material.dart';
 
 void main(){
@@ -15,16 +16,8 @@ class MyApp extends StatelessWidget{
   Widget build(BuildContext context){
     return MaterialApp(
       home: Scaffold(
-        body: Center(
-          child: Row(
-            children: [
-              Container(width: 100,height: 100,color: Colors.pink,),
-              Container(width: 100,height: 100,color: Colors.green,),
-              Container(width: 100,height: 100,color: Colors.blue,),
-            ],
-          ),
-        ),
-      ),
+        body: CurrencyCoverterClass()
+      )
     );
   }
 }
