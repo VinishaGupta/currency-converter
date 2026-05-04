@@ -21,7 +21,9 @@ class MyApp extends StatelessWidget{
             Row(
               children: [
                 Container(width: 100,height: 100,color: Colors.pink,),
+                SizedBox(height: 20, width: 20,),
                 Container(width: 100,height: 100,color: Colors.green,),
+                SizedBox(height: 20,width: 20,),
                 Container(width: 100,height: 100,color: Colors.blue,),
               ],
             ) ,
