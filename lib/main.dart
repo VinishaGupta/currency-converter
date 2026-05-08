@@ -6,6 +6,7 @@
 
 import 'package:currency_converter/CurrencyCoverterClass.dart';
 import 'package:flutter/material.dart';
+import 'package:currency_converter/Exercise.dart';
 
 void main(){
   runApp(MyApp());

@@ -13,8 +13,9 @@ class CurrencyCoverterClass extends StatelessWidget{
             child: Column(
               mainAxisAlignment:MainAxisAlignment.center,
               children: [
-                Text('0',style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold,fontSize:45), )
-                n
+                Text('0',style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold,fontSize:45), ),
+                TextField(style: TextStyle(color: Colors.white,),)
+                
               ],
             ),
           )
