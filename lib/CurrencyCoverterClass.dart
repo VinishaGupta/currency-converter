@@ -4,8 +4,7 @@ class CurrencyCoverterClass extends StatelessWidget{
  
     @override
     Widget build(BuildContext context){
-      return MaterialApp(
-        home: Scaffold(
+      return  Scaffold(
           backgroundColor: const Color.fromARGB(255, 51, 51, 51),
           
           body: Center(
@@ -19,7 +18,7 @@ class CurrencyCoverterClass extends StatelessWidget{
             ),
           ) 
           
-        )
+        
       );
     }
   }
