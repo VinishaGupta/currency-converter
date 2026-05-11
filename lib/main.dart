@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:currency_converter/CurrencyCoverterClass.dart';
 
 void main(){
     runApp(MyApp());
@@ -9,8 +10,9 @@ class MyApp extends StatelessWidget{
     Widget build(BuildContext context){
         return MaterialApp(
             home: Scaffold(
-                body: ,
+                body: CurrencyCoverterClass()
             ),
+            
         );
     }
 }
