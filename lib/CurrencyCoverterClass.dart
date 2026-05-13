@@ -13,7 +13,7 @@ class CurrencyCoverterClass extends StatelessWidget{
               mainAxisAlignment:MainAxisAlignment.center,
               children: [
                 Text('0',style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold,fontSize:45), ),
-                TextField(style: TextStyle(color: Colors.white),)
+                TextField(style: TextStyle(color: Colors.white),decoration: InputDecoration(label: Text("Enter amount")),)
               ],
             ),
           ) 
